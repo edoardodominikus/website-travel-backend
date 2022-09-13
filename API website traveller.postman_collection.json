@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "8cedc999-92fe-4c71-b362-1c19024c241e",
+		"name": "API website traveller",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19391115"
+	},
+	"item": [
+		{
+			"name": "landing-page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/member/landing-page",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"member",
+						"landing-page"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "landing-page",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/member/landing-page",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"member",
+								"landing-page"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "4911"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"132f-2KSqKoVwoGu7XbXfo/aUrxyK9v0\""
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 13 Sep 2022 08:35:22 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"hero\": {\n        \"travelers\": 1,\n        \"treasures\": 8,\n        \"cities\": 12\n    },\n    \"mostPicked\": [\n        {\n            \"_id\": \"5e96cbe292b97300fc902222\",\n            \"title\": \"Tabby Town\",\n            \"price\": 12,\n            \"country\": \"Indonesia\",\n            \"city\": \"Lampung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb1\",\n                    \"imageUrl\": \"images/image-mostpicked-1-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb2\",\n                    \"imageUrl\": \"images/image-mostpicked-2-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb3\",\n                    \"imageUrl\": \"images/image-mostpicked-3-min.jpg\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc902223\",\n            \"title\": \"Seattle Rain\",\n            \"price\": 20,\n            \"country\": \"Indonesia\",\n            \"city\": \"Bandung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb4\",\n                    \"imageUrl\": \"images/image-mostpicked-4-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb5\",\n                    \"imageUrl\": \"images/item-1.png\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb6\",\n                    \"imageUrl\": \"images/image-mostpicked-5-min.jpg\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc902224\",\n            \"title\": \"Wodden Pit\",\n            \"price\": 20,\n            \"country\": \"Indonesia\",\n            \"city\": \"Bandung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb7\",\n                    \"imageUrl\": \"images/image-mostpicked-7-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb8\",\n                    \"imageUrl\": \"images/image-mostpicked-8-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb9\",\n                    \"imageUrl\": \"images/image-mostpicked-9-min.jpg\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc902227\",\n            \"title\": \"Podo Wae\",\n            \"price\": 20,\n            \"country\": \"Indonesia\",\n            \"city\": \"Bandung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd16\",\n                    \"imageUrl\": \"images/image-category-1-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd17\",\n                    \"imageUrl\": \"images/image-category-2-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd18\",\n                    \"imageUrl\": \"images/image-category-3-min.jpg\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc902228\",\n            \"title\": \"Silver Rain\",\n            \"price\": 20,\n            \"country\": \"Indonesia\",\n            \"city\": \"Bandung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd19\",\n                    \"imageUrl\": \"images/image-category-4-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd20\",\n                    \"imageUrl\": \"images/image-category-5-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd21\",\n                    \"imageUrl\": \"images/image-category-6-min.jpg\"\n                }\n            ]\n        }\n    ],\n    \"category\": [\n        {\n            \"_id\": \"5e96cbe292b97300fc901111\",\n            \"name\": \"Houses with beauty backyard\",\n            \"itemId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc902225\",\n                    \"title\": \"Anggana\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": true,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd10\",\n                            \"imageUrl\": \"images/image-mostpicked-10-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902224\",\n                    \"title\": \"Wodden Pit\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cdb7\",\n                            \"imageUrl\": \"images/image-mostpicked-7-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902223\",\n                    \"title\": \"Seattle Rain\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cdb4\",\n                            \"imageUrl\": \"images/image-mostpicked-4-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902222\",\n                    \"title\": \"Tabby Town\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Lampung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cdb1\",\n                            \"imageUrl\": \"images/image-mostpicked-1-min.jpg\"\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc901112\",\n            \"name\": \"Hotels with large living room\",\n            \"itemId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc902229\",\n                    \"title\": \"Cashville\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": true,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd22\",\n                            \"imageUrl\": \"images/image-category-7-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902228\",\n                    \"title\": \"Silver Rain\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd19\",\n                            \"imageUrl\": \"images/image-category-4-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902227\",\n                    \"title\": \"Podo Wae\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd16\",\n                            \"imageUrl\": \"images/image-category-1-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902226\",\n                    \"title\": \"Green Park\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd13\",\n                            \"imageUrl\": \"images/image-mostpicked-13-min.jpg\"\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc901113\",\n            \"name\": \"Apartment with kitchen\",\n            \"itemId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc902233\",\n                    \"title\": \"Stays Home\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": true,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd34\",\n                            \"imageUrl\": \"images/image-category-16-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902232\",\n                    \"title\": \"Minimal\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd31\",\n                            \"imageUrl\": \"images/image-category-13-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902231\",\n                    \"title\": \"One Five\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd28\",\n                            \"imageUrl\": \"images/image-category-10-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902230\",\n                    \"title\": \"PS Wood\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd25\",\n                            \"imageUrl\": \"images/image-category-7-min.jpg\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ],\n    \"testimonial\": {\n        \"_id\": \"asd1293uasdads1\",\n        \"imageUrl\": \"/images/testimonial2.jpg\",\n        \"name\": \"Happy Family\",\n        \"rate\": 4.55,\n        \"content\": \"What a great trip with my family and I should try again next time soon ...\",\n        \"familyName\": \"Angga\",\n        \"familyOccupation\": \"Product Designer\"\n    }\n}"
+				}
+			]
+		}
+	]
+}
