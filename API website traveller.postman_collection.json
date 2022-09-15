@@ -68,8 +68,12 @@
 							"value": "W/\"132f-2KSqKoVwoGu7XbXfo/aUrxyK9v0\""
 						},
 						{
+							"key": "Set-Cookie",
+							"value": "connect.sid=s%3AaJZhWSGiBLMudzp3sz6a0qg6FUtQYQJe.zk1SFDUjmb%2BOFxEjJcMb8rMeucNpyd7LfrAHec8ySWs; Path=/; Expires=Tue, 13 Sep 2022 08:41:45 GMT; HttpOnly"
+						},
+						{
 							"key": "Date",
-							"value": "Tue, 13 Sep 2022 08:35:22 GMT"
+							"value": "Tue, 13 Sep 2022 08:40:45 GMT"
 						},
 						{
 							"key": "Connection",
@@ -82,6 +86,290 @@
 					],
 					"cookie": [],
 					"body": "{\n    \"hero\": {\n        \"travelers\": 1,\n        \"treasures\": 8,\n        \"cities\": 12\n    },\n    \"mostPicked\": [\n        {\n            \"_id\": \"5e96cbe292b97300fc902222\",\n            \"title\": \"Tabby Town\",\n            \"price\": 12,\n            \"country\": \"Indonesia\",\n            \"city\": \"Lampung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb1\",\n                    \"imageUrl\": \"images/image-mostpicked-1-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb2\",\n                    \"imageUrl\": \"images/image-mostpicked-2-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb3\",\n                    \"imageUrl\": \"images/image-mostpicked-3-min.jpg\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc902223\",\n            \"title\": \"Seattle Rain\",\n            \"price\": 20,\n            \"country\": \"Indonesia\",\n            \"city\": \"Bandung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb4\",\n                    \"imageUrl\": \"images/image-mostpicked-4-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb5\",\n                    \"imageUrl\": \"images/item-1.png\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb6\",\n                    \"imageUrl\": \"images/image-mostpicked-5-min.jpg\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc902224\",\n            \"title\": \"Wodden Pit\",\n            \"price\": 20,\n            \"country\": \"Indonesia\",\n            \"city\": \"Bandung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb7\",\n                    \"imageUrl\": \"images/image-mostpicked-7-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb8\",\n                    \"imageUrl\": \"images/image-mostpicked-8-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cdb9\",\n                    \"imageUrl\": \"images/image-mostpicked-9-min.jpg\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc902227\",\n            \"title\": \"Podo Wae\",\n            \"price\": 20,\n            \"country\": \"Indonesia\",\n            \"city\": \"Bandung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd16\",\n                    \"imageUrl\": \"images/image-category-1-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd17\",\n                    \"imageUrl\": \"images/image-category-2-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd18\",\n                    \"imageUrl\": \"images/image-category-3-min.jpg\"\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc902228\",\n            \"title\": \"Silver Rain\",\n            \"price\": 20,\n            \"country\": \"Indonesia\",\n            \"city\": \"Bandung\",\n            \"unit\": \"night\",\n            \"imageId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd19\",\n                    \"imageUrl\": \"images/image-category-4-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd20\",\n                    \"imageUrl\": \"images/image-category-5-min.jpg\"\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc90cd21\",\n                    \"imageUrl\": \"images/image-category-6-min.jpg\"\n                }\n            ]\n        }\n    ],\n    \"category\": [\n        {\n            \"_id\": \"5e96cbe292b97300fc901111\",\n            \"name\": \"Houses with beauty backyard\",\n            \"itemId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc902225\",\n                    \"title\": \"Anggana\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": true,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd10\",\n                            \"imageUrl\": \"images/image-mostpicked-10-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902224\",\n                    \"title\": \"Wodden Pit\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cdb7\",\n                            \"imageUrl\": \"images/image-mostpicked-7-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902223\",\n                    \"title\": \"Seattle Rain\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cdb4\",\n                            \"imageUrl\": \"images/image-mostpicked-4-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902222\",\n                    \"title\": \"Tabby Town\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Lampung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cdb1\",\n                            \"imageUrl\": \"images/image-mostpicked-1-min.jpg\"\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc901112\",\n            \"name\": \"Hotels with large living room\",\n            \"itemId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc902229\",\n                    \"title\": \"Cashville\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": true,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd22\",\n                            \"imageUrl\": \"images/image-category-7-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902228\",\n                    \"title\": \"Silver Rain\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd19\",\n                            \"imageUrl\": \"images/image-category-4-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902227\",\n                    \"title\": \"Podo Wae\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd16\",\n                            \"imageUrl\": \"images/image-category-1-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902226\",\n                    \"title\": \"Green Park\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd13\",\n                            \"imageUrl\": \"images/image-mostpicked-13-min.jpg\"\n                        }\n                    ]\n                }\n            ]\n        },\n        {\n            \"_id\": \"5e96cbe292b97300fc901113\",\n            \"name\": \"Apartment with kitchen\",\n            \"itemId\": [\n                {\n                    \"_id\": \"5e96cbe292b97300fc902233\",\n                    \"title\": \"Stays Home\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": true,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd34\",\n                            \"imageUrl\": \"images/image-category-16-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902232\",\n                    \"title\": \"Minimal\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd31\",\n                            \"imageUrl\": \"images/image-category-13-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902231\",\n                    \"title\": \"One Five\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd28\",\n                            \"imageUrl\": \"images/image-category-10-min.jpg\"\n                        }\n                    ]\n                },\n                {\n                    \"_id\": \"5e96cbe292b97300fc902230\",\n                    \"title\": \"PS Wood\",\n                    \"country\": \"Indonesia\",\n                    \"city\": \"Bandung\",\n                    \"isPopular\": false,\n                    \"imageId\": [\n                        {\n                            \"_id\": \"5e96cbe292b97300fc90cd25\",\n                            \"imageUrl\": \"images/image-category-7-min.jpg\"\n                        }\n                    ]\n                }\n            ]\n        }\n    ],\n    \"testimonial\": {\n        \"_id\": \"asd1293uasdads1\",\n        \"imageUrl\": \"/images/testimonial2.jpg\",\n        \"name\": \"Happy Family\",\n        \"rate\": 4.55,\n        \"content\": \"What a great trip with my family and I should try again next time soon ...\",\n        \"familyName\": \"Angga\",\n        \"familyOccupation\": \"Product Designer\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "detail-page",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/v1/member/detail-page/5e96cbe292b97300fc902223",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"member",
+						"detail-page",
+						"5e96cbe292b97300fc902223"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "detail-page",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/v1/member/detail-page/5e96cbe292b97300fc902223",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"member",
+								"detail-page",
+								"5e96cbe292b97300fc902223"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2007"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7d7-gG04N8SdDz+jsxC3uJSBKo0oQtI\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 15 Sep 2022 04:20:47 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"item\": {\n        \"_id\": \"5e96cbe292b97300fc902223\",\n        \"title\": \"Seattle Rain\",\n        \"price\": 20,\n        \"country\": \"Indonesia\",\n        \"city\": \"Bandung\",\n        \"isPopular\": false,\n        \"description\": \"Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.\",\n        \"unit\": \"night\",\n        \"sumBooking\": 2,\n        \"categoryId\": \"5e96cbe292b97300fc901111\",\n        \"imageId\": [\n            {\n                \"_id\": \"5e96cbe292b97300fc90cdb4\",\n                \"imageUrl\": \"images/image-mostpicked-4-min.jpg\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90cdb5\",\n                \"imageUrl\": \"images/item-1.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90cdb6\",\n                \"imageUrl\": \"images/image-mostpicked-5-min.jpg\"\n            }\n        ],\n        \"featureId\": [\n            {\n                \"_id\": \"5e96cbe292b97300fc90aa01\",\n                \"name\": \"bedroom\",\n                \"qty\": 2,\n                \"imageUrl\": \"images/feature-1.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90aa02\",\n                \"name\": \"living room\",\n                \"qty\": 23,\n                \"imageUrl\": \"images/feature-2.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90aa03\",\n                \"name\": \"televison\",\n                \"qty\": 12,\n                \"imageUrl\": \"images/feature-3.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90aa04\",\n                \"name\": \"televison\",\n                \"qty\": 5,\n                \"imageUrl\": \"images/feature-4.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90aa05\",\n                \"name\": \"mbp/s\",\n                \"qty\": 5,\n                \"imageUrl\": \"images/feature-5.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90aa06\",\n                \"name\": \"unit ready\",\n                \"qty\": 5,\n                \"imageUrl\": \"images/feature-6.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90aa07\",\n                \"name\": \"refigrator\",\n                \"qty\": 5,\n                \"imageUrl\": \"images/feature-7.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90aa08\",\n                \"name\": \"televion\",\n                \"qty\": 5,\n                \"imageUrl\": \"images/feature-8.png\"\n            }\n        ],\n        \"activityId\": [\n            {\n                \"_id\": \"5e96cbe292b97300fc90bb01\",\n                \"name\": \"Green Lake\",\n                \"type\": \"Nature\",\n                \"imageUrl\": \"images/activity-1.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90bb02\",\n                \"name\": \"Dog Clubs\",\n                \"type\": \"Pool\",\n                \"imageUrl\": \"images/activity-2.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90bb03\",\n                \"name\": \"Labour and Wait\",\n                \"type\": \"Shopping\",\n                \"imageUrl\": \"images/activity-3.png\"\n            },\n            {\n                \"_id\": \"5e96cbe292b97300fc90bb04\",\n                \"name\": \"Labour and Wait\",\n                \"type\": \"Shopping\",\n                \"imageUrl\": \"images/activity-4.png\"\n            }\n        ],\n        \"__v\": 0\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "booking-page",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/edoardo/Pictures/Screenshots/Screenshot from 2022-07-11 11-26-04.png"
+						},
+						{
+							"key": "idItem",
+							"value": "5e96cbe292b97300fc902223",
+							"type": "text"
+						},
+						{
+							"key": "duration",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "bookingStartDate",
+							"value": "9-4-2020",
+							"type": "text"
+						},
+						{
+							"key": "bookingEndDate",
+							"value": "11-4-2020",
+							"type": "text"
+						},
+						{
+							"key": "firstName",
+							"value": "edoardo",
+							"type": "text"
+						},
+						{
+							"key": "lastName",
+							"value": "dominikus",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "wowowowowo@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "phoneNumber",
+							"value": "123123123",
+							"type": "text"
+						},
+						{
+							"key": "accountHolder",
+							"value": "edoardodominikus",
+							"type": "text"
+						},
+						{
+							"key": "bankFrom",
+							"value": "BCA",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/v1/member/booking-page",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"v1",
+						"member",
+						"booking-page"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "booking-page",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/home/edoardo/Pictures/Screenshots/Screenshot from 2022-07-11 11-26-04.png"
+								},
+								{
+									"key": "idItem",
+									"value": "5e96cbe292b97300fc902223",
+									"type": "text"
+								},
+								{
+									"key": "duration",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "bookingStartDate",
+									"value": "9-4-2020",
+									"type": "text"
+								},
+								{
+									"key": "bookingEndDate",
+									"value": "11-4-2020",
+									"type": "text"
+								},
+								{
+									"key": "firstName",
+									"value": "edoardo",
+									"type": "text"
+								},
+								{
+									"key": "lastName",
+									"value": "dominikus",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "wowowowowo@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "phoneNumber",
+									"value": "123123123",
+									"type": "text"
+								},
+								{
+									"key": "accountHolder",
+									"value": "edoardodominikus",
+									"type": "text"
+								},
+								{
+									"key": "bankFrom",
+									"value": "BCA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/member/booking-page",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"member",
+								"booking-page"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "447"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"1bf-W/fvN6YynazphSMlTm5b4+RlsMo\""
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "connect.sid=s%3AQKrHzSkv-2ASb1mmVxErfqWy_DMAAOuE.40Kjixd7ojX1Lw46mSXSKAOP%2BI7gv8Sm2C13hwT%2FjFs; Path=/; Expires=Thu, 15 Sep 2022 05:34:11 GMT; HttpOnly"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 15 Sep 2022 05:33:11 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Success Booking\",\n    \"booking\": {\n        \"bookingStartDate\": \"2020-09-03T16:00:00.000Z\",\n        \"bookingEndDate\": \"2020-11-03T16:00:00.000Z\",\n        \"invoice\": \"3288828\",\n        \"itemId\": {\n            \"_id\": \"5e96cbe292b97300fc902223\",\n            \"title\": \"Seattle Rain\",\n            \"duration\": 2\n        },\n        \"total\": 44,\n        \"memberId\": \"6322b9174b7e61f02ef90191\",\n        \"payments\": {\n            \"proofPayment\": \"images/1663219991222.png\",\n            \"bankFrom\": \"BCA\",\n            \"accountHolder\": \"edoardodominikus\",\n            \"status\": \"Process\"\n        },\n        \"_id\": \"6322b9174b7e61f02ef90193\",\n        \"__v\": 0\n    }\n}"
 				}
 			]
 		}
