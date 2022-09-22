@@ -15,11 +15,11 @@ var usersRouter = require('./routes/users');
 const adminRouter = require('./routes/admin');
 const apiRouter = require('./routes/api');
 // const adminController = require('./controllers/adminController');
-
+cors = require('cors')
 
 
 var app = express();
-
+app.use(cors())
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
